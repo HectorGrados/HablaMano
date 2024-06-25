@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string-array name="startup_fragments">
+        <item>Inicio</item>
+        <item>Mano</item>
+        <item>Diccionario</item>
+        <item>Ajustes</item>
+    </string-array>
+</resources>
