@@ -15,39 +15,86 @@
     ~ limitations under the License.
 -->
 <resources>
-    <string name="app_name">Habla Mano</string>
+    <string name="app_name" translatable="false">Speak Hand</string>
 
-    <string name="media_pipe">MediaPipe</string>
+    <string name="media_pipe" translatable="false">MediaPipe</string>
 
-    <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
+    <string name="alt_bottom_sheet_chevron" translatable="false">Bottom sheet expandable indicator</string>
 
-    <string name="alt_bottom_sheet_max_results_button_minus">Decreasing
+    <string name="alt_bottom_sheet_max_results_button_minus" translatable="false">Decreasing
         maximum recognized results button</string>
-    <string name="alt_bottom_sheet_max_results_button_plus">Increasing maximum recognized results
+    <string name="alt_bottom_sheet_max_results_button_plus" translatable="false">Increasing maximum recognized results
         button</string>
-    <string name="alt_bottom_sheet_threshold_button_minus">Decreasing
+    <string name="alt_bottom_sheet_threshold_button_minus" translatable="false">Decreasing
         threshold of recognized hand gesture results button</string>
-    <string name="alt_bottom_sheet_threshold_button_plus">Increasing
+    <string name="alt_bottom_sheet_threshold_button_plus" translatable="false">Increasing
         threshold of recognized hand gesture results button</string>
-    <string name="alt_bottom_sheet_thread_button_minus">Decrease the number of threads used</string>
-    <string name="alt_bottom_sheet_thread_button_plus">Increase the number of threads used</string>
-    <string name="menu_camera">Camera</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="tv_gallery_placeholder">Click + to add an image or a video
+    <string name="alt_bottom_sheet_thread_button_minus" translatable="false">Decrease the number of threads used</string>
+    <string name="alt_bottom_sheet_thread_button_plus" translatable="false">Increase the number of threads used</string>
+    <string name="menu_camera" translatable="false">Camera</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="tv_gallery_placeholder" translatable="false">Click + to add an image or a video
         to begin running the gesture recognizer.</string>
 
-    <string name="label_inference_time">Inference Time</string>
-    <string name="label_fps">Frames per Second</string>
-    <string name="label_hand_detection_confidence_threshold">Detection
+    <string name="label_inference_time" translatable="false">Inference Time</string>
+    <string name="label_fps" translatable="false">Frames per Second</string>
+    <string name="label_hand_detection_confidence_threshold" translatable="false">Detection
         Threshold</string>
-    <string name="label_hand_tracking_confidence_threshold">Tracking
+    <string name="label_hand_tracking_confidence_threshold" translatable="false">Tracking
         Threshold</string>
-    <string name="label_hand_presence_confidence_threshold">Presence
+    <string name="label_hand_presence_confidence_threshold" translatable="false">Presence
         Threshold</string>
-    <string name="label_delegate">Delegate</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_delegate" translatable="false">Delegate</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
-    <string name="letter_image">Letter Image</string>
+    <string name="letter_image" translatable="false">Letter Image</string>
+
+    ////////SPLASH
+    <string name="sepeakhandsplash" translatable="false">Welcome to Speak Hand</string>
+    <string name="signsplash" translatable="false">Sign Translator</string>
+    ///////LOGIN
+    <string name="welcomelogin" translatable="false">Welcome</string>
+    <string name="emaillogin" translatable="false">Email</string>
+    <string name="contrasenalogin" translatable="false">Password</string>
+    <string name="iniciarlogin" translatable="false">Log in</string>
+    <string name="registerlogin" translatable="false">Register your account!</string>
+
+    ///////ACTIVITYMAIN ITEMS PRINCIPALES
+    <string name="handactivity" translatable="false">Hand</string>
+    <string name="diccionarioactivity" translatable="false">Dictionary</string>
+    <string name="ajustesactivity" translatable="false">Settings</string>
+
+    /////FRAGMENTMANO
+    <string name="ingresafragmano" translatable="false">Enter a word</string>
+    <string name="procesarfragmano" translatable="false">Process</string>
+
+    ////FRAGMENTPROFILE
+    <string name="diccionariofragprofile" translatable="false">Sign Dictionary</string>
+    <string name="buscarletrafragprofile" translatable="false">Search letter...</string>
+    <string name="buscarfragprofile" translatable="false">Search</string>
+
+    ////FRAGMENTSETTINGS
+    <string name="usernamefragsettings" translatable="false">Username</string>
+    <string name="configuracionfragsettings" translatable="false">Settings</string>
+    <string name="aplicacionfragsettings" translatable="false">Application Theme</string>
+    <string name="clarofragsettings" translatable="false">Clear</string>
+    <string name="oscurofragsettings" translatable="false">Dark</string>
+    <string name="idiomafragsettings" translatable="false">Language</string>
+    <string name="homefragsettings" translatable="false">Home Fragment</string>
+    <string name="guardarfragsettings" translatable="false">Save Settings</string>
+    ///////REGISTRO
+    <string name="SignupRegistro" translatable="false">Sign up</string>
+    <string name="nombresRegistro" translatable="false">Names and Surnames</string>
+    <string name="emailRegistro" translatable="false">Email</string>
+    <string name="contraRegistro" translatable="false">Password</string>
+    <string name="registerRegistro" translatable="false">Register</string>
+
+
+
+
+
+
+
 
     <string-array name="delegate_spinner_titles">
         <item>CPU</item>

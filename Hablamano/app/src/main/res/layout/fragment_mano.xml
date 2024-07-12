@@ -14,13 +14,13 @@
             android:id="@+id/editTextWord"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:hint="Ingrese una palabra"
+            android:hint="@string/ingresafragmano"
             android:inputType="text" />
         <Button
             android:id="@+id/btnProcess"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Procesar"
+            android:text="@string/procesarfragmano"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp" />
         <LinearLayout

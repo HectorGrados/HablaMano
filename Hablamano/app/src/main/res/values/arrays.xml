@@ -2,13 +2,7 @@
 <resources>
     <string-array name="languages">
         <item>Español</item>
-        <item>Inglés</item>
+        <item>English</item>
     </string-array>
 
-    <string-array name="startup_fragments">
-        <item>Inicio</item>
-        <item>Mano</item>
-        <item>Diccionario</item>
-        <item>Ajustes</item>
-    </string-array>
 </resources>

@@ -7,14 +7,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/upnfondo"
+    android:background="@drawable/fondo"
     tools:context=".Registro">
 
-    <ImageView
-        android:layout_width="190dp"
-        android:layout_height="90dp"
-        android:layout_margin="12dp"
-        android:background="@drawable/logoupn"/>
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -23,7 +19,8 @@
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp"
         android:clipChildren="false"
-        android:clipToPadding="false">
+        android:clipToPadding="false"
+        android:translationY="320dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,18 +29,20 @@
             android:background="@drawable/custom_edittext"
             android:orientation="vertical"
             android:padding="24dp"
-            android:paddingTop="20dp">
+            android:paddingTop="20dp"
+            >
 
             <TextView
                 android:id="@+id/logintext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:text="Registrate"
+                android:text="@string/SignupRegistro"
                 android:textAlignment="center"
                 android:textColor="@color/amarillo"
                 android:textSize="36sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:translationY="-60dp"/>
             <EditText
                 android:id="@+id/nombres"
                 android:layout_width="match_parent"
@@ -52,9 +51,10 @@
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="8dp"
-                android:hint="Nombre y Apellido"
+                android:hint="@string/nombresRegistro"
                 android:padding="8dp"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:translationY="-60dp"/>
 
             <EditText
                 android:id="@+id/email"
@@ -64,9 +64,10 @@
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
-                android:hint="Email"
+                android:hint="@string/emailRegistro"
                 android:padding="8dp"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:translationY="-60dp"/>
 
             <EditText
                 android:id="@+id/contrasena"
@@ -76,10 +77,11 @@
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
-                android:hint="Contraseña"
+                android:hint="@string/contraRegistro"
                 android:inputType="textPassword"
                 android:padding="8dp"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:translationY="-60dp"/>
 
             <Button
                 android:id="@+id/registroButton"
@@ -87,9 +89,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/amarillo"
-                android:text="Registrarte"
+                android:text="@string/registerRegistro"
                 android:textSize="18sp"
-                app:cornerRadius="20dp" />
+                app:cornerRadius="20dp"
+                android:translationY="-58dp"/>
 
             <TextView
                 android:id="@+id/textView2"

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ~ Copyright 2022 The TensorFlow Authors. All Rights Reserved.
+    ~
+    ~ Licensed under the Apache License, Version 2.0 (the "License");
+    ~ you may not use this file except in compliance with the License.
+    ~ You may obtain a copy of the License at
+    ~
+    ~       http://www.apache.org/licenses/LICENSE-2.0
+    ~
+    ~ Unless required by applicable law or agreed to in writing, software
+    ~ distributed under the License is distributed on an "AS IS" BASIS,
+    ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    ~ See the License for the specific language governing permissions and
+    ~ limitations under the License.
+-->
+<resources>
+    <string name="app_name" translatable="false">Habla Mano</string>
+
+    <string name="media_pipe" translatable="false">MediaPipe</string>
+
+    <string name="alt_bottom_sheet_chevron" translatable="false">Indicador extensible de sábana bajera</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus" translatable="false">Decreciente
+        Botón de máximos resultados reconocidos</string>
+    <string name="alt_bottom_sheet_max_results_button_plus" translatable="false">Incrementar los resultados máximos reconocidos
+        botón</string>
+    <string name="alt_bottom_sheet_threshold_button_minus" translatable="false">Decreciente
+        Umbral del botón de resultados de gestos con las manos reconocidos.</string>
+    <string name="alt_bottom_sheet_threshold_button_plus" translatable="false">Creciente
+        Umbral del botón de resultados de gestos con las manos reconocidos.</string>
+    <string name="alt_bottom_sheet_thread_button_minus" translatable="false">Disminuir el número de hilos utilizados.</string>
+    <string name="alt_bottom_sheet_thread_button_plus" translatable="false">Aumentar el número de hilos utilizados.</string>
+    <string name="menu_camera" translatable="false">Camara</string>
+    <string name="menu_gallery" translatable="false">Galeria</string>
+    <string name="tv_gallery_placeholder" translatable="false">Haga clic en + para agregar una imagen o un video
+        para comenzar a ejecutar el reconocedor de gestos.</string>
+
+    <string name="label_inference_time" translatable="false">Tiempo de inferencia</string>
+    <string name="label_fps" translatable="false">Cuadros por segundo</string>
+    <string name="label_hand_detection_confidence_threshold" translatable="false">Detección
+        Límite</string>
+    <string name="label_hand_tracking_confidence_threshold" translatable="false">Seguimiento
+        Límite</string>
+    <string name="label_hand_presence_confidence_threshold" translatable="false">Presencia
+        Límite</string>
+    <string name="label_delegate" translatable="false">Delegar</string>
+    <string name="hello_blank_fragment" translatable="false">Hola fragmento en blanco</string>
+
+    <string name="letter_image" translatable="false">Imagen de letra</string>
+
+    ////////SPLASH
+    <string name="sepeakhandsplash" translatable="false">Bienvenido a Habla Mano</string>
+    <string name="signsplash" translatable="false">Traductor de Señas</string>
+    ///////LOGIN
+    <string name="welcomelogin" translatable="false">Bienvenidos</string>
+    <string name="emaillogin" translatable="false">Correo</string>
+    <string name="contrasenalogin" translatable="false">Contraseña</string>
+    <string name="iniciarlogin" translatable="false">Iniciar Sesion</string>
+    <string name="registerlogin" translatable="false">¡Registra tu cuenta!</string>
+    ///////ACTIVITYMAIN ITEMS PRINCIPALES
+    <string name="handactivity" translatable="false">Mano</string>
+    <string name="diccionarioactivity" translatable="false">Diccionario</string>
+    <string name="ajustesactivity" translatable="false">Ajustes</string>
+    /////FRAGMENTMANO
+    <string name="ingresafragmano" translatable="false">Ingrese una palabra</string>
+    <string name="procesarfragmano" translatable="false">Procesar</string>
+    ////FRAGMENTPROFILE
+    <string name="diccionariofragprofile" translatable="false">Diccionario de señas</string>
+    <string name="buscarletrafragprofile" translatable="false">Buscar letra...</string>
+    <string name="buscarfragprofile" translatable="false">Buscar</string>
+    ////FRAGMENTSETTINGS
+    <string name="usernamefragsettings" translatable="false">Nombre de Usuario</string>
+    <string name="configuracionfragsettings" translatable="false">Configuraciones</string>
+    <string name="aplicacionfragsettings" translatable="false">Tema de la Aplicación</string>
+    <string name="clarofragsettings" translatable="false">Claro</string>
+    <string name="oscurofragsettings" translatable="false">Oscuro</string>
+    <string name="idiomafragsettings" translatable="false">Idioma</string>
+    <string name="homefragsettings" translatable="false">Fragmento de Inicio</string>
+    <string name="guardarfragsettings" translatable="false">Guardar Configuraciones</string>
+    ///////REGISTRO
+    <string name="SignupRegistro" translatable="false">Registrate</string>
+    <string name="nombresRegistro" translatable="false">Nombres y Apellidos</string>
+    <string name="emailRegistro" translatable="false">Correo</string>
+    <string name="contraRegistro" translatable="false">Contraseña</string>
+    <string name="registerRegistro" translatable="false">Registrarte</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+</resources>

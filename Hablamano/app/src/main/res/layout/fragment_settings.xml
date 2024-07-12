@@ -35,14 +35,14 @@
                     android:id="@+id/textViewUserName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nombre de Usuario"
+                    android:text="@string/usernamefragsettings"
                     android:textSize="18sp"/>
             </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Configuraciones"
+                android:text="@string/configuracionfragsettings"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:paddingBottom="16dp"/>
@@ -50,7 +50,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tema de la Aplicación"
+                android:text="@string/aplicacionfragsettings"
                 android:textSize="18sp"
                 android:paddingBottom="8dp"/>
 
@@ -62,12 +62,12 @@
                     android:id="@+id/radioLight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Claro" />
+                    android:text="@string/clarofragsettings" />
                 <RadioButton
                     android:id="@+id/radioDark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Oscuro" />
+                    android:text="@string/oscurofragsettings" />
             </RadioGroup>
             <View
                 android:layout_width="match_parent"
@@ -77,7 +77,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Idioma"
+                android:text="@string/idiomafragsettings"
                 android:textSize="18sp"
                 android:paddingBottom="8dp"/>
 
@@ -86,29 +86,12 @@
                 android:layout_width="364dp"
                 android:layout_height="58dp"
                 android:entries="@array/languages" />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/darker_gray"
-                android:layout_marginVertical="16dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fragmento de Inicio"
-                android:textSize="18sp"
-                android:paddingBottom="8dp"/>
 
-            <Spinner
-                android:id="@+id/startupFragmentSpinner"
-                android:layout_width="364dp"
-                android:layout_height="62dp"
-                android:entries="@array/startup_fragments" />
-            <!-- Botón Guardar Configuraciones -->
             <Button
                 android:id="@+id/btnGuardarConfiguraciones"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Guardar configuraciones"
+                android:text="@string/guardarfragsettings"
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"/>
         </LinearLayout>

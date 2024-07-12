@@ -29,13 +29,13 @@
     <item
         android:id="@+id/mano_fragment"
         android:icon="@drawable/mano"
-        android:title="Mano" />
+        android:title="@string/handactivity" />
     <item
         android:id="@+id/profile_fragment"
         android:icon="@drawable/userz"
-        android:title="Diccionario"/>
+        android:title="@string/diccionarioactivity"/>
     <item
         android:id="@+id/settings_fragment"
         android:icon="@drawable/ajustes"
-        android:title="Ajustes"/>
+        android:title="@string/ajustesactivity"/>
 </menu>

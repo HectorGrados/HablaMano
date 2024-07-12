@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Diccionario de Señas"
+        android:text="@string/diccionariofragprofile"
         android:textSize="24sp"
         android:textStyle="bold"
         android:padding="16dp"/>
@@ -28,7 +28,7 @@
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_weight="1"
-            android:hint="Buscar letra..."
+            android:hint="@string/buscarletrafragprofile"
             android:inputType="text"
             android:padding="8dp" />
 
@@ -36,7 +36,7 @@
             android:id="@+id/btnSearch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buscar"
+            android:text="@string/buscarfragprofile"
             android:onClick="searchLetter"
             android:padding="8dp" />
 

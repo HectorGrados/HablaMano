@@ -65,6 +65,7 @@ public class Registro extends AppCompatActivity {
                 parametros.put("email",emailEditText.getText().toString());
                 parametros.put("contrasena",contrasenaEditText.getText().toString());
                 return parametros;
+
             }
         };
         requestQueue= Volley.newRequestQueue(this);

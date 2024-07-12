@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Haz clic en + para agregar una imagen y un video para comenzar a ejecutar el reconocedor de gestos"
+            android:text="@string/tv_gallery_placeholder"
             android:textColor="@color/ic_launcher_background"
             app:layout_constraintTop_toTopOf="parent" />
 
